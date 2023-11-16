@@ -129,7 +129,7 @@ The progression begins with the most specialized option, ASICs purpose-built for
 
 ### Application-Specific Integrated Circuits (ASICs)
 
-An Application-Specific Integrated Circuit (ASIC) is a type of [integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit) (IC) that is custom-designed for a specific application or workload, rather than for general-purpose use. Unlike CPUs and GPUs, ASICs do not support multiple applications or workloads. Rather, they are optimized to perform a single task extremely efficiently. Apple’s M1/2/3, AMD’s Neoverse, Intel’s i5/7/9, Google’s TPUs, and NVIDIA’s GPUs are all examples of ASICs.
+An Application-Specific Integrated Circuit (ASIC) is a type of [integrated circuit](https://en.wikipedia.org/wiki/Integrated_circuit) (IC) that is custom-designed for a specific application or workload, rather than for general-purpose use. Unlike CPUs and GPUs, ASICs do not support multiple applications or workloads. Rather, they are optimized to perform a single task extremely efficiently. Apple’s M1/2/3, AMD’s Neoverse, Intel’s i5/7/9, Google’s TPUs, and NVIDIA’s GPUs are all examples of ASICs. THIS IS A STRANGE STATEMENT, SOLUTION: ARGUE THAT ANYTHING IS EITHER ASIC OR FPGA (BASED ON DISCUSSIONS WITH CLASSMATES) OR DONT GIVE EG INTEL I5 AS EXAMPLE OF ASIC, AS IT IS GENERAL PURPOSE
 
 ASICs achieve this efficiency by tailoring every aspect of the chip design - the underlying logic gates, electronic components, architecture, memory, I/O, and manufacturing process - specifically for the target application. This level of customization allows removing any unnecessary logic or functionality required for general computation. The result is an IC that maximizes performance and power efficiency on the desired workload. The efficiency gains from application-specific hardware are so substantial that these software-centric firms are dedicating enormous engineering resources to designing customized ASICs. 
 
@@ -210,7 +210,7 @@ While ASICs provide massive efficiency gains on target applications by tailoring
 
 ### Field-Programmable Gate Arrays (FPGAs)
 
-FPGAs are programmable integrated circuits that can be reconfigured for different applications. Their customizable nature provides advantages for accelerating AI algorithms compared to fixed ASICs or inflexible GPUs. While Google, Meta, and NVIDIA which are looking at putting ASICs in data centers, Microsoft deployed FPGAs in their data centers [@putnam_reconfigurable_2014] in 2011 to efficiently serve diverse data center workloads. 
+FPGAs are programmable integrated circuits that can be reconfigured for different applications. Their customizable nature provides advantages for accelerating AI algorithms compared to fixed ASICs or inflexible GPUs. While Google, Meta, and NVIDIA are looking at putting ASICs in data centers, Microsoft deployed FPGAs in their data centers [@putnam_reconfigurable_2014] in 2011 to efficiently serve diverse data center workloads. 
 
 #### Advantages
 
